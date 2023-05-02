@@ -20,12 +20,6 @@
 /* FLEX GROW, SHRINK & BASIS RESET */
 [class *= "col-"]{
     flex: 0 0 auto;
-    background-color: #016cfa;
-    height: 3rem;
-    border: 1px solid white;
-    color: white;
-    text-align: center;
-    line-height: 3rem;
 }
 
 /* COLS */
