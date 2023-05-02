@@ -1,0 +1,70 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+}
+
+/* CONTAINER & ROW */
+.container{
+    width: 720px;
+    height: 960px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* UTILITIES */
+.flexbox{
+    display: flex;
+}
+
+.centered{
+    margin: auto;
+}
+
+.pixel{
+    height: 60px;
+    width: 60px;
+    border: 0.5px solid white;
+}
+
+/* COLORS */
+.cap, .pants{
+    background-color: #fe0100;
+}
+
+.hair{
+    background-color: #2a1001;
+}
+
+.eyes{
+    background-color: #000000;
+}
+
+.moustache{
+    background-color: #26160a;
+}
+
+.tank-top{
+    background-color: #2600ff;
+}
+
+.buttons{
+    background-color: #fdfe00;
+}
+
+.skin{
+    background-color: #feb280;
+}
+
+.shoes{
+    background-color: #4f2d16;
+}
